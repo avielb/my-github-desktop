@@ -4,5 +4,6 @@ node {
     }
     stage("show files"){
         sh "ls -l"
+        echo "hello world"
     }
 }
